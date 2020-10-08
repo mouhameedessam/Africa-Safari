@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url('./img/south_africa_180917.jpg') center center/cover no-repeat;
+  
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+hr {
+  background-color: rgb(216, 122, 45);
+  height: 8px;
+  border: none;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  padding: 5px;
+}
+
+.section-1 .logo img {
+  width: 270px;
+}
+
+.section-1 .section-information h3 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.section-1 .section-information p {
+  font-size: 16px;
+}
+
+.section-1 .section-information p span {
+  margin-left: 4rem;
+  font-weight: 700;
+}
+
+.section-1 .section-information img {
+  width: 46px;
+  margin: 3px;
+  padding: 5px 15px;
+  background-color: rgb(255, 210, 210);
+  border-radius: 15px;
+
+}
+
+.section-1 .section-information .icons {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.section-2 {
+  padding: 5px 10px;
+  background-color: #f4f4f4;
+}
+
+h4 {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.section-2 p {
+  font-size: 16px;
+}
+
+.section-2 .paragraph-1 {
+  margin: 8px 0;
+}
+
+.section-3 {
+  padding: 0 10px;
+  background-color: #f4f4f4;
+}
+
+.section-3 .boxes {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.section-3 .boxes span {
+  color: black;
+  font-size: 14px;
+}
+
+.section-3 .boxes .box-1 {
+  height: 130px;
+  width: 140px;
+  background-color: rgb(117, 75, 75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.section-3 .boxes .box-2 {
+  height: 130px;
+  width: 140px;
+  background-color: rgb(71, 168, 71);
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.section-3 .boxes .box-3 {
+  height: 50px;
+  width: 130px;
+  background-color: rgb(202, 188, 56);
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.section-3 .pay{
+  padding: 10px 0;
+}
+
+.section-3 .pay img{
+  display: block;
+  margin:auto ;
+  padding: 8px 50px;
+  background-color: rgb(28, 204, 86);
+  border-radius: 15px;
+}
+
+.section-4{
+  background-color: #f4f4f4;
+  padding: 5px 10px;
+}
+
+.section-4 .card{
+  margin: 10px auto;
+  background-color: #ffffff;
+  border-radius:15PX;
+  width: 75%;
+  
+}
+
+.section-4 .card .card-top{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  font-size: 12px;
+  padding: 10px;
+}
+.section-4 .card img{
+  width: 150px;
+}
+
+.section-4 .card .card-top h4{
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.section-4 .card .card-middle p:first-child{
+  font-size: 23px;
+  margin-left: 2rem;
+  margin-bottom: 10px;
+}
+
+.section-4 .card .card-middle{
+  padding: 10px;
+}
+.section-4 .card .card-middle p:last-child{
+  font-size: 14px;
+  font-weight: 600;
+}
+.section-4 .card .card-middle .time{
+  padding: 0 35px;
+  margin: 0 5px;
+  font-size: 16px;
+}
+.section-4 .card .card-middle .place{
+  margin-left: 7rem;
+}
+
+.section-4 .card .card-bottom{
+  background-color: rgb(224, 188, 67);
+   border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+.section-4 .card .card-bottom .weight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-4 .card .card-bottom .check-in{
+  align-items: center;
+  display: flex;
+}
+.section-4 .card .card-bottom img{
+  width: 30px;
+  margin-right: 5px;
+}
+
+.section-4 .card .card-bottom button{
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  background-color: rgb(133, 252, 97);
+  display: flex;
+  cursor: pointer;
+}
+
+.section-4 .card .card-bottom button img{
+  width:16px ;
+}
+
+.section-5{
+  background-color: #f4f4f4;
+}
+
+.section-5 .section-5-content{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.section-5 img{
+  width: 90px;
+}
+.section-5 .pointer{
+  width: 30px;
+  margin-top: 10px;
+}
+
+.section-5-information{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: rgb(110, 219, 233);
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+i{
+  color: #000000;
+}
